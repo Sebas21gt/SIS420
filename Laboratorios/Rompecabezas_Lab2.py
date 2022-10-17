@@ -52,11 +52,12 @@ class Nodo:
         return str(self.get_datos())
 
 #GONZALES TITO SEBASTIAN
+#https://github.com/Sebas21gt/SIS420/
 #Elabore un programa para resolver un rompecabezas lineal de 10 dígitos en base al revisado en clase.
 
 """En este caso mi programa solo funciona hasta 7 digitos con una respuesta de 4min 
 Debido a la memoria de la computadora, esta implementado con 2 ciclos for para recorrer el rompecabezas y una lista FIFO
-ya que con las listas LIFO en este caso tarda mas"""
+ya que con las listas LIFO en este caso tarda mas (De igual forma realiza por la lista LIFO)"""
 
 
 def bpa(estado_inicio, estado_solucion):
@@ -73,7 +74,6 @@ def bpa(estado_inicio, estado_solucion):
             resuelto = True
             return nodo_actual
         else:
-            #Bucle para recorrer 
             for i in range(0, len(estado_solucion)-1):
               elemento = estado_solucion[i]
               for j in range(0, len(estado_inicio)-1):

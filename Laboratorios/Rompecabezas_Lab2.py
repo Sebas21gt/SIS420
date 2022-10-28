@@ -52,6 +52,8 @@ class Nodo:
         return str(self.get_datos())
 
 #GONZALES TITO SEBASTIAN
+#LINK REPOSITORIO
+#https://github.com/Sebas21gt/SIS420/tree/main/Laboratorios
 #Elabore un programa para resolver un rompecabezas lineal de 10 dígitos en base al revisado en clase.
 
 """En este caso mi programa solo funciona hasta 7 digitos con una respuesta de 4min 
@@ -73,7 +75,6 @@ def bpa(estado_inicio, estado_solucion):
             resuelto = True
             return nodo_actual
         else:
-            #Bucle para recorrer 
             for i in range(0, len(estado_solucion)-1):
               elemento = estado_solucion[i]
               for j in range(0, len(estado_inicio)-1):
@@ -90,8 +91,8 @@ def bpa(estado_inicio, estado_solucion):
                     nodos_frontera.append(hijo)
 
 if __name__ == "__main__":
-    estado_inicial = [7, 6, 5, 4, 3, 2, 1]
-    solucion = [1, 2, 3, 4, 5, 6, 7]
+    estado_inicial = [4, 3, 2, 1]
+    solucion = [1, 2, 3, 4]
     nodo_solucion = bpa(estado_inicial, solucion)
 
     # mostrar resultado

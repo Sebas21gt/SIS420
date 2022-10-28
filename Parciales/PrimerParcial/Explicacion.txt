@@ -1,0 +1,9 @@
+Nombre: Gonzales Tito Sebastian
+Carrera: Ing. Sistemas
+Repositorio: https://github.com/Sebas21gt/SIS420
+
+Resolucion de mover 2 palitos, para obtener de 4 a 2 triangulos equilateros.
+
+Para resolver el problema se uso el algoritmo de Busqueda por Anchura dando nodo inicial y nodo solucion para llegar al resultado, recorre toda la lista para ver donde se encuentra los espacios a eliminar, luego de encontrar se crean los nodos hijos al momento de reemplazar con un espacio (" ") la posicion del index correspondiente, despues empieza a graficar la solucion y muestra las iteraciones del recorrido.
+
+Se utilizo el algoritmo de Busqueda por Anchura porque no se veia necesario usar una heuristica ni costos, solo es necesario encontrar las coordenadas para poder reemplazarlo con un espacio en blanco (" ").

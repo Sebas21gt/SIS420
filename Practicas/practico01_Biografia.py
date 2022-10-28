@@ -1,3 +1,8 @@
+#Sebastian Gonzales Tito
+#Ing. Sistemas
+#https://github.com/Sebas21gt/SIS420
+
+
 datos = ["Sebastian Gonzales", "20 años", "Ing. Sistemas", "Barrio Max Toledo"]
 hobbies = ["Robotica", "Programacion", "Baile", "Deportes"]
 
